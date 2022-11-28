@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+}
+
+.container {
+    margin: 0 350px 0;
+    position: absolute;
+}
+
+.cup {
+    background-color: rgba(245, 245, 245, 0.952);
+    border-color: rgba(0, 0, 0, 0.36);
+    border-radius: 15% 35% 35% 35%;
+    border-style: inset;
+    border-width: 0px 7px 7px 7px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: -220px;
+    width: 380px;
+}
+
+.coffee {
+    background-color: rgba(210, 105, 30, 0.811);
+    border-color: rgba(0, 0, 0, 0.174);
+    border-radius: 55% 55% 70% 70%;
+    border-style: solid;
+    border-width: 6px 0px 0px 0px;
+    height: 40px;
+    position: relative;
+    top: 13px;
+    width: 275px;
+}
+
+.handle {
+    border-color: rgb(236, 69, 75);
+    border-radius: 60px 60px 50%;
+    border-style: solid;
+    border-width: 30px 30px 30px 30px;
+    height: 180px;
+    left: 98%;
+    position: absolute;
+    top: 110px;
+    width: 100px;
+    z-index: -1;
+}
+
+.oval {
+    background-color: aliceblue;
+    bottom: 11px;
+    border-bottom: 4px;
+    border-bottom-color: rgba(0, 0, 0, 0.393);
+    border-color: rgba(0, 0, 0, 0.36);
+    border-radius: 46% 50% 50% 50%;
+    border-style: solid inset;
+    border-width: 5px 10px 10px;
+    height: 58px;
+    left: 11px;
+    position: relative;
+    width: 273px;
+}
+
+.polka-dots {
+    height: 420px;
+    opacity: 0.8;
+    position: relative;
+    top: 9px;
+    width: 380px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.smoke {
+    bottom: 130px;
+    left: 27%;
+    opacity: 0.4;
+    position: relative;
+    z-index: 2;
+}
+
+.smoke1 {
+    height: 420px;
+    width: 900px;
+}
+
+.text {
+    bottom: 30px;
+    font-family: Brush Script MT, cursive;
+    font-size: 70px;
+    line-height: 30px;
+    position: absolute;
+    padding-left: 30px;
+    text-align: center;
+}
